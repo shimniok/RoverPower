@@ -10387,7 +10387,7 @@ LETTER landscape</description>
 &lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
 <packages>
 <package name="PAD_12GA">
-<pad name="P$1" x="0" y="0" drill="2.8"/>
+<pad name="P$1" x="0" y="0" drill="2.8" shape="square"/>
 <text x="2.286" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="PAD0.07X0.15">
