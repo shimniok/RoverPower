@@ -16,8 +16,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -150,36 +150,6 @@
 <hole x="28.956" y="2.794" drill="3.2"/>
 <hole x="28.956" y="28.956" drill="3.2"/>
 <hole x="2.794" y="28.956" drill="3.2"/>
-<polygon width="0.3048" layer="29">
-<vertex x="11.303" y="7.874"/>
-<vertex x="20.447" y="7.874" curve="-90"/>
-<vertex x="21.082" y="7.239"/>
-<vertex x="21.082" y="3.429" curve="-90"/>
-<vertex x="20.447" y="2.794"/>
-<vertex x="11.303" y="2.794" curve="-90"/>
-<vertex x="10.668" y="3.429"/>
-<vertex x="10.668" y="7.239" curve="-90"/>
-</polygon>
-<polygon width="0.3048" layer="29">
-<vertex x="9.271" y="2.794"/>
-<vertex x="5.969" y="2.794" curve="-90"/>
-<vertex x="5.334" y="3.429"/>
-<vertex x="5.334" y="7.239" curve="-90"/>
-<vertex x="5.969" y="7.874"/>
-<vertex x="9.271" y="7.874" curve="-90"/>
-<vertex x="9.906" y="7.239"/>
-<vertex x="9.906" y="3.429" curve="-90"/>
-</polygon>
-<polygon width="0.3048" layer="29">
-<vertex x="25.781" y="2.794"/>
-<vertex x="22.479" y="2.794" curve="-90"/>
-<vertex x="21.844" y="3.429"/>
-<vertex x="21.844" y="7.239" curve="-90"/>
-<vertex x="22.479" y="7.874"/>
-<vertex x="25.781" y="7.874" curve="-90"/>
-<vertex x="26.416" y="7.239"/>
-<vertex x="26.416" y="3.429" curve="-90"/>
-</polygon>
 <text x="14.224" y="23.622" size="1.4224" layer="25" font="vector" rot="SR180">RoverPower</text>
 <text x="30.734" y="9.652" size="1.016" layer="25" font="vector" rot="R90">www.bot-thoughts.com</text>
 <text x="5.842" y="25.4" size="1.27" layer="25" font="vector" rot="SR180">R0.2</text>
@@ -362,7 +332,7 @@
 &lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
 <packages>
 <package name="PAD_12GA">
-<pad name="P$1" x="0" y="0" drill="2.8"/>
+<pad name="P$1" x="0" y="0" drill="2.8" shape="square"/>
 <text x="2.286" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
