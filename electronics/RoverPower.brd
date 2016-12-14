@@ -1382,22 +1382,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C1206">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="SMC_B">
 <description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
 Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
@@ -1785,9 +1769,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP2" library="bt_electromech" package="PAD_12GA" value="GND" x="24.13" y="5.334" smashed="yes" rot="R270">
 <attribute name="VALUE" x="25.908" y="2.159" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="C3" library="rcl" package="C1206" value="106" x="21.844" y="28.575" smashed="yes" rot="R90">
+<element name="C3" library="rcl" package="C0603" value="104" x="21.844" y="28.575" smashed="yes" rot="R90">
 <attribute name="VOLTAGE" value="10V" x="21.844" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="23.114" y="29.845" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="22.86" y="30.099" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="D1" library="bt_diode" package="DO-214AA" value="25.5V" x="21.336" y="10.16" smashed="yes">
 <attribute name="VALUE" x="25.146" y="8.382" size="1.016" layer="27" font="vector" ratio="12"/>
@@ -1802,9 +1786,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U1" library="bt_regulator" package="TO263-3" value="LM2940" x="11.049" y="16.51" smashed="yes" rot="R90">
 <attribute name="VALUE" x="10.16" y="10.795" size="1.016" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="C4" library="rcl" package="SMC_B" value="107" x="20.066" y="23.114" smashed="yes">
-<attribute name="VOLTAGE" value="10V" x="20.066" y="23.114" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="17.399" y="21.844" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
+<element name="C4" library="rcl" package="SMC_B" value="107" x="20.066" y="23.368" smashed="yes">
+<attribute name="VOLTAGE" value="10V" x="20.066" y="23.368" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.399" y="22.098" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="JP5" library="bt_electromech" package="PAD_12GA" value="ESC" x="13.208" y="5.334" smashed="yes" rot="R90">
 <attribute name="VALUE" x="14.986" y="2.159" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
@@ -1818,9 +1802,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VOLTAGE" value="25V" x="24.13" y="15.494" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.781" y="12.319" size="1.016" layer="27" font="vector" ratio="12"/>
 </element>
-<element name="C2" library="rcl" package="C0603" value="104" x="14.986" y="10.16" smashed="yes" rot="R180">
-<attribute name="VOLTAGE" value="25V" x="14.986" y="10.16" size="1.778" layer="27" ratio="12" rot="R180" display="off"/>
-<attribute name="VALUE" x="16.383" y="9.271" size="1.016" layer="27" font="vector" ratio="12" rot="R180"/>
+<element name="C2" library="rcl" package="C0603" value="104" x="14.986" y="10.414" smashed="yes" rot="R180">
+<attribute name="VOLTAGE" value="25V" x="14.986" y="10.414" size="1.778" layer="27" ratio="12" rot="R180" display="off"/>
+<attribute name="VALUE" x="16.129" y="9.525" size="1.016" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -1868,12 +1852,19 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="15.113" y="25.654"/>
 <vertex x="10.795" y="25.654" curve="-90"/>
 </polygon>
-<via x="19.05" y="21.082" extent="1-16" drill="0.3302"/>
-<via x="18.034" y="21.082" extent="1-16" drill="0.3302"/>
-<via x="17.018" y="21.59" extent="1-16" drill="0.3302"/>
-<via x="17.018" y="24.638" extent="1-16" drill="0.3302"/>
-<via x="18.034" y="25.146" extent="1-16" drill="0.3302"/>
-<via x="19.05" y="25.146" extent="1-16" drill="0.3302"/>
+<via x="19.05" y="21.336" extent="1-16" drill="0.3302"/>
+<via x="18.034" y="21.336" extent="1-16" drill="0.3302"/>
+<via x="17.018" y="22.86" extent="1-16" drill="0.3302"/>
+<via x="17.018" y="24.13" extent="1-16" drill="0.3302"/>
+<via x="18.034" y="25.4" extent="1-16" drill="0.3302"/>
+<via x="19.05" y="25.4" extent="1-16" drill="0.3302"/>
+<via x="16.256" y="18.542" extent="1-16" drill="0.3302"/>
+<via x="16.256" y="19.558" extent="1-16" drill="0.3302"/>
+<via x="17.018" y="20.32" extent="1-16" drill="0.3302"/>
+<via x="18.034" y="20.32" extent="1-16" drill="0.3302"/>
+<via x="19.05" y="20.32" extent="1-16" drill="0.3302"/>
+<via x="21.336" y="26.416" extent="1-16" drill="0.3302"/>
+<via x="22.352" y="26.416" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="GND">
 <contactref element="JP4" pad="1"/>
@@ -1965,13 +1956,39 @@ Please make sure your boards conform to these design rules.</description>
 <via x="16.256" y="16.002" extent="1-16" drill="0.3302"/>
 <via x="20.066" y="16.256" extent="1-16" drill="0.3302"/>
 <via x="20.066" y="17.272" extent="1-16" drill="0.3302"/>
-<via x="21.082" y="21.082" extent="1-16" drill="0.3302"/>
-<via x="22.352" y="21.082" extent="1-16" drill="0.3302"/>
+<via x="21.082" y="21.336" extent="1-16" drill="0.3302"/>
+<via x="22.352" y="21.336" extent="1-16" drill="0.3302"/>
 <via x="23.114" y="24.384" extent="1-16" drill="0.3302"/>
 <via x="23.114" y="23.368" extent="1-16" drill="0.3302"/>
 <via x="23.114" y="22.352" extent="1-16" drill="0.3302"/>
 <contactref element="C1" pad="-"/>
 <contactref element="C2" pad="2"/>
+<via x="14.224" y="11.684" extent="1-16" drill="0.3302"/>
+<via x="13.208" y="11.684" extent="1-16" drill="0.3302"/>
+<via x="12.7" y="10.922" extent="1-16" drill="0.3302"/>
+<via x="12.7" y="9.906" extent="1-16" drill="0.3302"/>
+<via x="23.368" y="12.192" extent="1-16" drill="0.3302"/>
+<via x="24.384" y="12.192" extent="1-16" drill="0.3302"/>
+<via x="25.4" y="12.192" extent="1-16" drill="0.3302"/>
+<via x="25.4" y="11.176" extent="1-16" drill="0.3302"/>
+<via x="25.4" y="10.16" extent="1-16" drill="0.3302"/>
+<via x="25.4" y="9.144" extent="1-16" drill="0.3302"/>
+<via x="13.462" y="14.986" extent="1-16" drill="0.3302"/>
+<via x="13.208" y="18.288" extent="1-16" drill="0.3302"/>
+<via x="14.224" y="21.336" extent="1-16" drill="0.3302"/>
+<via x="1.778" y="8.382" extent="1-16" drill="0.3302"/>
+<via x="6.35" y="8.636" extent="1-16" drill="0.3302"/>
+<via x="28.702" y="16.002" extent="1-16" drill="0.3302"/>
+<via x="26.162" y="25.908" extent="1-16" drill="0.3302"/>
+<via x="22.606" y="19.558" extent="1-16" drill="0.3302"/>
+<via x="28.702" y="11.176" extent="1-16" drill="0.3302"/>
+<via x="6.858" y="24.638" extent="1-16" drill="0.3302"/>
+<via x="1.524" y="21.59" extent="1-16" drill="0.3302"/>
+<via x="10.16" y="24.384" extent="1-16" drill="0.3302"/>
+<via x="29.718" y="22.606" extent="1-16" drill="0.3302"/>
+<via x="28.956" y="6.858" extent="1-16" drill="0.3302"/>
+<via x="22.352" y="30.734" extent="1-16" drill="0.3302"/>
+<via x="21.336" y="30.734" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="BAT+">
 <contactref element="JP1" pad="P$1"/>
@@ -2000,8 +2017,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="15.24" y="10.16"/>
 <vertex x="15.24" y="14.351" curve="-90"/>
 </polygon>
-<via x="19.812" y="14.478" extent="1-16" drill="0.3302"/>
-<via x="19.812" y="13.462" extent="1-16" drill="0.3302"/>
+<via x="20.066" y="14.478" extent="1-16" drill="0.3302"/>
+<via x="20.066" y="13.462" extent="1-16" drill="0.3302"/>
 <via x="19.05" y="12.7" extent="1-16" drill="0.3302"/>
 <via x="18.034" y="12.7" extent="1-16" drill="0.3302"/>
 <via x="17.018" y="12.7" extent="1-16" drill="0.3302"/>
@@ -2033,6 +2050,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="17.272" y="9.652" extent="1-16" drill="0.3302"/>
 <via x="17.272" y="8.636" extent="1-16" drill="0.3302"/>
 <contactref element="C2" pad="1"/>
+<via x="16.002" y="11.684" extent="1-16" drill="0.3302"/>
+<via x="16.002" y="9.144" extent="1-16" drill="0.3302"/>
 </signal>
 </signals>
 </board>

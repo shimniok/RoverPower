@@ -11354,7 +11354,7 @@ Familiar regulator features such as short circuit and thermal overload protectio
 </class>
 </classes>
 <parts>
-<part name="C3" library="rcl" deviceset="C-US" device="C1206" value="106">
+<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="104">
 <attribute name="VOLTAGE" value="10V"/>
 </part>
 <part name="GND1" library="bt" deviceset="GND" device=""/>
